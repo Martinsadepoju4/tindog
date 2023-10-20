@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: 'Montserrat';
+}
+
+em {
+  color: #ffff;
+}
+.big-heading{
+  color: #ffff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+
+
+.h22 {
+  color: black;
+}
+
+
+ .container-fluid {
+  padding: 3% 15%;
+
+}
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  top: 30%;
+  left: 20%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.button-class {
+  margin: 5% 3% 5% 0;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.features-row {
+  padding: 4.5%;
+}
+
+.fa-solids {
+  color: #ef8172;
+  padding-bottom: 2rem;
+}
+
+.fa-solids:hover {
+  color: #ff4c68;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+/* testimonials section */
+#testimonials {
+  background-color: #ef8172;
+  padding: 7% 15%;
+}
+.testimonial-text{
+  font-weight: 600;
+  color: #ffff;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 5% 1%;
+}
+ /* press section */
+#press {
+  background-color: #ef8172;
+}
+
+.press-image {
+  width: 15%;
+  margin: 3% 1%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px 100px 0;
+}
+.pricing-heading{
+  font-weight: 600;
+  color: black;
+  font-size: 3rem;
+}
+.pricing-text{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.columns {
+  padding: 3% 2%;
+}
+
+  /* cta section */
+
+#cta{
+  background-color: #ff4c68;
+}
+.cta-div{
+  padding:100px 100px 100px;
+  margin: auto;
+}
+.cta-heading{
+  font-weight: bolder;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+.fa-brands{
+  padding: 5px;
+}
+.buttons{
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+/* footer section */
+#footer{
+  background-color: #fff;
+  padding-top: 80px;
+}
+.footer-icon{
+  padding: 20px 5px;
+}
+.footer-p{
+  font-size: 14px;
+}
+@media(max-width:1028px)  {
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
